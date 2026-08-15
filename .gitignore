@@ -1,0 +1,37 @@
+# Environment & secrets
+.venv
+.env
+*.env
+.env.*
+
+__pycache__/
+
+.ipynb_checkpoints/
+
+# Scratch files
+notes.txt
+**/notes.txt
+
+# Generated media
+*.mp3
+*.wav
+demo/*.mp3
+demo/*.wav
+
+# OS-specific
+.DS_Store
+Thumbs.db
+
+.vscode/
+!.vscode/settings.json
+
+# LangGraph / LangChain checkpoints
+*.sqlite
+*.db
+
+# Large data files
+RAG/data/*.pdf
+Vectorless RAG/*.pdf
+
+# VS Code Code Runner temp file
+tempCodeRunnerFile.py
